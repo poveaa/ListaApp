@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ingreso"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/lista_compras"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lista_compras"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="248dp" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/presupuesto"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/planificar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/planificar_compras"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+
+    <Button
+        android:id="@+id/registro"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registro_compras"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+
+        <Button
+            android:id="@+id/btn_Configura"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/configuraci_n" />
+    </LinearLayout>
+
+</LinearLayout>
